@@ -5,5 +5,4 @@
   tasks:
     - name: Print All fruits
       debug:  "Fruit Name = {{item}}"
-      loop: FRUITS
-      
+      loop: "{{FRUITS}}"
